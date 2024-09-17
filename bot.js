@@ -950,7 +950,7 @@ function main() {
         const existingEntry = await client.db(dbName).collection('BotSetting').findOne({
             botName: botUsername
         });
-        if (existingEntry.shortLink === false) {
+        if (existingEntry.fsub === false) {
             return true;
         } else {
             try {
