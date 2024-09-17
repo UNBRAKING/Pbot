@@ -350,7 +350,7 @@ function main() {
                 }],
                 [{
                     text: 'UPDATE CHANNEL',
-                    url: 'https://t.me/anonymous_robots'
+                    url: 'https://t.me/Pbail_Movie_Channel'
                 }]
             ];
             const replyMarkup = {
@@ -429,7 +429,7 @@ function main() {
                     if (!member) {
                         keyboard.push([{
                             text: 'Join Update Channel',
-                            url: 'https://t.me/anonymous_robots'
+                            url: 'https://t.me/Pbail_Movie_Channel'
                         }]);
                         fileMessage = fileMessage.concat('👉🏻 First Join Update Channel\n');
                     }
