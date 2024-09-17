@@ -12,7 +12,7 @@ const client = new MongoClient('mongodb+srv://moviessearchbot:moviessearchbot@cl
 const admins = ['5397992078', '5606990991']
 let logId = '-1002168567134'; // Log group Id
 let dbId = '-1002008957712'; // db group Id
-let channelId = '-1001874525841'; // fsub Id
+let channelId = '-1001902665212'; // fsub Id
 let forwardChannelId = '-1002106510412' // auto send file link in channell id
 let botUsername;
 let botId;
